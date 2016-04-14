@@ -85,11 +85,6 @@ module.exports = function(grunt) {
 		'gh-pages': {
 			options: {
 				base: 'dist',
-				user: {
-					name: 'Leury Rodriguez',
-					email: 'leuryr@yahoo.com'
-				},
-				message: 'Initial distribution commit.'
 			},
 			src: ['**']
 		}
