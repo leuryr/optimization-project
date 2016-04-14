@@ -81,6 +81,17 @@ module.exports = function(grunt) {
 					ext: '.css'
 				}]
 			}
+		},
+		'gh-pages': {
+			options: {
+				base: 'dist',
+				user: {
+					name: 'Leury Rodriguez',
+					email: 'leuryr@yahoo.com'
+				},
+				message: 'Initial distribution commit.'
+			},
+			src: ['**']
 		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-watch');
@@ -88,5 +99,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-gh-pages');
 	grunt.registerTask('default', ['watch']);
 };
