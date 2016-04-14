@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 				tasks: ['uglify.mainJS']
 			},
 			html: {
-				files: ['src/**/*.html'],
+				files: ['src/*.html', 'src/**/*.html'],
 				tasks: ['htmlmin']
 			},
 			css: {
