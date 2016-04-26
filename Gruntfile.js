@@ -3,11 +3,11 @@ module.exports = function(grunt) {
 		watch: {
 			perfJS: {
 			    files: ['src/js/*.js'],
-			    tasks: ['uglify.perfJS']
+			    tasks: ['uglify']
 			},
 			mainJS: {
 				files: ['src/views/js/*.js'],
-				tasks: ['uglify.mainJS']
+				tasks: ['uglify']
 			},
 			html: {
 				files: ['src/*.html', 'src/**/*.html'],
