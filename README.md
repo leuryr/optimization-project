@@ -7,7 +7,7 @@
 Some useful tips to help you get started:
 
 1. Check out the repository
-2. To inspect the site, you can run a local server
+2. To inspect the site, you can run a local server using [Python](https://www.python.org/)
 
   ```bash
   $> cd /path/to/project-dist-folder
@@ -32,7 +32,7 @@ The PageSpeed Insights scores should be up to standards!
 
 #### Running the build tools
 
-In order to get the build tools that were used set up on your system:
+In order to get the build tools that were used set up on your system, you must have [Node.js](https://nodejs.org/en/download/) and [Grunt](http://gruntjs.com/getting-started) installed.
 
 * Navigate to the project folder and run `npm install`
 
